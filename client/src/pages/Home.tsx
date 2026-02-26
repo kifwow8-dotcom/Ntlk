@@ -70,7 +70,7 @@ export default function Home() {
             <div className="flex items-center justify-center space-x-2 space-x-reverse text-muted-foreground bg-secondary/50 border border-white/5 rounded-full px-6 py-3 shadow-inner max-w-fit mx-auto backdrop-blur-sm">
               <MapPin className="w-5 h-5 text-primary" />
               <span className="font-sans text-lg md:text-xl font-medium">
-                لبنان، طرابلس، القبة، الأبقار، بالضبط أمام الطبابة العسكرية
+                لبنان، طرابلس، القبة، البقار، بالضبط أمام الطبابة العسكرية
               </span>
             </div>
           </motion.div>
@@ -198,8 +198,8 @@ export default function Home() {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-2"
         >
-          <span className="text-xl font-display text-muted-foreground/80 hover:text-primary transition-colors cursor-default">
-            by بيبرس النشار
+          <span className="text-xl font-display text-muted-foreground/80 cursor-default">
+            صنع بواسطة <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)] animate-pulse">بيبرس النشار</span>
           </span>
         </motion.div>
       </footer>
